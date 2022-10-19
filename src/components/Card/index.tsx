@@ -7,18 +7,19 @@ export interface CardProps {
     style?: React.CSSProperties
     cardIndex: number
     onClick: () => void
-    onMouseDown?: () => void
+    onMouseDown: () => void
+    onMouseEnter: () => void
 }
 
 const joker = ["J", "O", "K", "E", "R"]
 
 export default function Card(props: CardProps) {
-    const { className, style, cardIndex, onClick } = props
+    const { className, style, cardIndex, onClick, onMouseDown, onMouseEnter } = props
     const card = twoList[cardIndex]
     const { text, color, icon } = getCardLook(card)
 
     return (
-        <div onMouseDown={undefined} onClick={onClick} className={`${styles["poker"]} ${className || ""}`} style={style}>
+        <div onMouseEnter={onMouseEnter} onMouseDown={onMouseDown} onClick={onClick} className={`${styles["card"]} ${className || ""}`} style={style}>
             <div className={styles["code"]} style={{ color }}>
                 <div className={styles["icon"]}>{icon}</div>
                 {icon ? (
