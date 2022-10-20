@@ -11,7 +11,7 @@ export default function Back(props: BackProps) {
     const { className, style, children } = props
     return (
         <div className={`${styles["back"]} ${className || ""}`} style={style}>
-            {children}
+            <div className={styles["back-bg"]}>{children}</div>
         </div>
     )
 }

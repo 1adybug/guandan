@@ -11,7 +11,7 @@ export default function SideBack(props: SideBackProps) {
     const { className, style, children } = props
     return (
         <div className={`${styles["side-back"]} ${className || ""}`} style={style}>
-            {children}
+            <div className={styles["back-bg"]}>{children}</div>
         </div>
     )
 }
