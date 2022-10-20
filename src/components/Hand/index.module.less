@@ -1,7 +1,27 @@
 .hand {
-    position: absolute;
     width: 100vw;
-    top: 200px;
-    // bottom: 0;
-    // bottom: 0;
+    position: fixed;
+    bottom: 40px;
+
+    .tool-list {
+        display: flex;
+        justify-content: center;
+
+        .button {
+            width: 100px;
+            height: 50px;
+            font-size: 24px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .button:not(:first-child) {
+            margin-left: 24px;
+        }
+    }
+
+    .card-list {
+        margin-top: 40px;
+        height: 300px;
+    }
 }

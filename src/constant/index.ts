@@ -1,10 +1,10 @@
 import { Card } from "../utils"
 
 export const oneList: Card[] = [
-    { value: 1, suit: 1 },
-    { value: 1, suit: 2 },
-    { value: 1, suit: 3 },
-    { value: 1, suit: 4 },
+    { value: 14, suit: 1 },
+    { value: 14, suit: 2 },
+    { value: 14, suit: 3 },
+    { value: 14, suit: 4 },
     { value: 2, suit: 1 },
     { value: 2, suit: 2 },
     { value: 2, suit: 3 },
@@ -58,10 +58,10 @@ export const oneList: Card[] = [
 ]
 
 export const twoList: Card[] = [
-    { value: 1, suit: 1 },
-    { value: 1, suit: 2 },
-    { value: 1, suit: 3 },
-    { value: 1, suit: 4 },
+    { value: 14, suit: 1 },
+    { value: 14, suit: 2 },
+    { value: 14, suit: 3 },
+    { value: 14, suit: 4 },
     { value: 2, suit: 1 },
     { value: 2, suit: 2 },
     { value: 2, suit: 3 },
@@ -112,10 +112,10 @@ export const twoList: Card[] = [
     { value: 13, suit: 4 },
     { value: 99, suit: 0 },
     { value: 100, suit: 5 },
-    { value: 1, suit: 1 },
-    { value: 1, suit: 2 },
-    { value: 1, suit: 3 },
-    { value: 1, suit: 4 },
+    { value: 14, suit: 1 },
+    { value: 14, suit: 2 },
+    { value: 14, suit: 3 },
+    { value: 14, suit: 4 },
     { value: 2, suit: 1 },
     { value: 2, suit: 2 },
     { value: 2, suit: 3 },
